@@ -93,10 +93,10 @@
 
 
 def problem1_7():
-    b1= int(input('enter the length of the first base: '))
-    b2= int(input('enter the length of the second base: '))
-    h= int(input('enter the length of the height: '))
+    b1= float(input('enter the length of the first base: '))
+    b2= float(input('enter the length of the second base: '))
+    h= float(input('enter the length of the height: '))
     
-    A= (1/2)(b1+b2)*(h)
+    A= (1/2)*(b1+b2)*(h)
     print("The area of a trapezoid with bases",b1,"and", b2, "and height", h, "is", A)
 problem1_7()  
